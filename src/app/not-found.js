@@ -1,5 +1,13 @@
+
+
 export default function NotFound() {
-    //Fetch the 404 page from storyblok (this component works as server component aswell)
-    //update this component to render a 404 page
-    return <h1>404 notfound</h1>
+  return (
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-100 text-center">
+      <h1 className="text-5xl font-bold text-red-600">404</h1>
+      <h2 className="text-2xl font-semibold mt-4 text-gray-800">Oops! Page not found</h2>
+      <p className="text-gray-600 mt-2">The page you're looking for doesn't exist.</p>
+      
+    
+    </div>
+  );
 }
